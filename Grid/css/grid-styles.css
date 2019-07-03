@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-areas: 'nav nav nav teste '
+                         'header header header teste '
+                         'section section section teste '
+                         'aside aside aside teste '
+                         'footer footer footer teste ';
+    grid-template-rows: 25vh 30vh 14vh;
+    grid-gap: 1vh;
+
+}
+nav {
+    grid-area: nav;  
+    background: rgb(236, 106, 106);
+}
+header {
+    grid-area: header;
+    background: rgb(62, 231, 85);
+}
+section {
+    grid-area: section;
+    background: rgb(61, 126, 201);
+}
+aside {
+    grid-area: teste;
+    background: rgb(198, 238, 87);
+}
+footer {
+    grid-area: footer;
+    background: rgb(247, 127, 201);
+    height: 100px;
+
+}
